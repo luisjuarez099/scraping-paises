@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import matplotlib.pyplot as mtl
 
-labels=['name','capital','poblacion']
+labels=['name','poblacion']
 def scrap_bok():
 	paises=[]
 	noms=[]
@@ -71,5 +71,4 @@ def scrap_bok():
 
 
 if __name__=='__main__':
-
 	scrap_bok()
